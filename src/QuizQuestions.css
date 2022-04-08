@@ -1,0 +1,25 @@
+.quiz-question {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  margin: 1rem;
+  padding: 3rem 1rem;
+  gap: 1rem;
+  background: rgba(0,0,0,0.04);
+}
+
+.quiz-question > div {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.quiz-question > div > input {
+  padding: 1rem 2rem;
+  background: transparent;
+  outline: none;
+  border-radius: 5px;
+}
